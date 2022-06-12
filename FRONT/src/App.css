@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  background: rgb(255,215,0);
+  background: linear-gradient(0deg, rgba(255,215,0,0.5200674019607843) 0%, rgba(0,191,255,0.5004595588235294) 100%);
+}
+
+.hello {
+  font-weight: bold;
+  font-size: 3.75em;
+  margin: 10px;
+  box-shadow: #0c4a6e;
+}
+
+.intro {
+  font-size: 1.25em;
+}
+
+.start_button {
+  width: fit-content;
+  margin: 20px;
+  background:none;
+  font-size: 1.10em;
+  font-style: italic;
+  border-radius: 4px;
+  border: none;
+  padding: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
